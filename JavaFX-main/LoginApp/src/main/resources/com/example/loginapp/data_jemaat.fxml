@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="407.0" prefWidth="682.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.loginapp.Data_JemaatController">
+    <children>
+        <TableView fx:id="table" layoutX="14.0" layoutY="89.0" prefHeight="310.0" prefWidth="658.0">
+            <columns>
+                <TableColumn fx:id="table_nij" prefWidth="50.6666898727417" text="nij" />
+                <TableColumn fx:id="table_nama" prefWidth="148.66661834716797" text="nama" />
+            <TableColumn fx:id="table_tempat_lahir" prefWidth="94.00001525878906" text="tempat_lahir" />
+            <TableColumn fx:id="table_tanggal_lahir" prefWidth="84.0" text="tanggal_lahir" />
+            <TableColumn fx:id="table_alamat" prefWidth="72.0" text="alamat" />
+            <TableColumn fx:id="table_no_tlp" prefWidth="65.33334350585938" text="no_tlp" />
+            <TableColumn fx:id="table_kontak_ortu" prefWidth="77.99993896484375" text="kontak_ortu" />
+            <TableColumn fx:id="table_member" prefWidth="69.33331298828125" text="member" />
+            </columns>
+        </TableView>
+        <Button fx:id="tambahJemaatBtn" layoutX="60.0" layoutY="32.0" mnemonicParsing="false" onAction="#tombol" prefWidth="150.0" text="Tambah Jemaat" />
+        <Button fx:id="editJemaatBtn" layoutX="266.0" layoutY="32.0" mnemonicParsing="false" prefWidth="150.0" text="Edit Jemaat" />
+        <Button fx:id="deleteJemaatBtn" layoutX="475.0" layoutY="32.0" mnemonicParsing="false" prefWidth="150.0" text="Delete Jemaat" />
+    </children>
+</AnchorPane>
